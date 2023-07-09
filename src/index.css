@@ -1,0 +1,28 @@
+@import 'bulma/css/bulma.min.css';
+
+.is-contain {
+  object-fit: contain;
+  object-position: center;
+}
+.is-product {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.equal-height {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.equal-height .card-content {
+  flex: auto;
+}
+
+.is-pointer {
+  cursor: pointer;
+}
+
+.has-float-right {
+  float: right!important;
+}
