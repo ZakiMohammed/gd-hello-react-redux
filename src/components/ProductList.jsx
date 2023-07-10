@@ -26,7 +26,7 @@ const ProductList = () => {
   return (
     <>
       <h2 className="title is-5 mb-5">
-        <span className="tag is-primary is-light has-float-right">Count: {filtered?.length || 0}</span>
+        <span className="tag is-primary is-light has-float-right">Filtered: {filtered?.length || 0}</span>
         🧸 Products
       </h2>
       <div className="columns is-multiline">
